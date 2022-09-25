@@ -3,51 +3,48 @@
   <link rel="icon" href="icon.png" type="image/x-icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <body class="bg-[#181E2A]">
-    <nav class="flex mt-12">
-      <div class="ml-6">
+  <header>
+    <nav class="container mx-auto mt-12 flex flex-row gap-x-right">
+      <div class="px-4">
         <img src="logo.svg" />
       </div>
-      <div class="self-center w-full ml-4">
-        <ul
-          class="flex flex-row float-right space-x-5 md:space-x-10 mr-20 text-stone-400"
-        >
+      <div class="px-2 my-auto ml-auto">
+        <ul class="flex  flex-row gap-x-4">
           <li>
-            <a href="/" class="hover:text-white hover:underline">Features</a>
+            <a href="" class="text-white hover:text-gray-200 hover:underline">Features</a>
           </li>
           <li>
-            <a href="/" class="hover:text-white hover:underline">Team</a>
+            <a href="" class="text-white hover:text-gray-200 hover:underline">Team</a>
           </li>
           <li>
-            <a href="/" class="hover:text-white hover:underline">Sign In</a>
+            <a href="" class="text-white hover:text-gray-200 hover:underline">Sign in</a>
           </li>
         </ul>
       </div>
     </nav>
+  </header>
     <main>
-      <section>
+      <section class="container mx-auto">
         <picture>
           <img src="intro.png" alt="intro" class="mx-auto mt-20 px-16" />
         </picture>
-        <div class="text-center mt-4">
+        <div class="text-center mt-4 px-4">
           <p class="text-white text-3xl font-semibold max-w-xl mx-auto">
             All your files in onse cure location, accessible anywhere.
           </p>
-          <p class="text-gray-400 mt-6 mx-auto max-w-md mb-5">
+          <p class="text-gray-400 mt-6 mx-auto mb-5">
             Fylo stores all your most important files in one secure location.
             Access them wherever you need, share and collaborate with friend
             family, and co-workers.
           </p>
           <button
             type="button"
-            class="bg-[#8CDBE4] w-56 h-10 rounded-full hover:text-white"
-          >
+            class="bg-[#8CDBE4] w-56 h-10 rounded-full hover:text-white">
             Get Started
           </button>
         </div>
       </section>
-      <section
-        class="grid grid-cols-1 md:grid-cols-2 gap-y-16 text-center mt-32"
-      >
+      <section class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-y-16 text-center mt-32 px-4">
         <div>
           <picture>
             <img src="icon-access-anywhere.svg" class="mb-7 mx-auto" />
@@ -91,8 +88,7 @@
         </div>
       </section>
       <section
-        class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10 mt-32 align-item"
-      >
+        class="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10 mt-32 align-item">
         <picture>
           <img src="illustration.png " alt="illustration" class="px-12" />
         </picture>
@@ -115,12 +111,8 @@
           >
         </div>
       </section>
-      <section
-        class="grid justify-items-center grid-cols-1 lg:grid-cols-3 justify-center gap-x-16 gap-y-24 mt-40 mb-4 mx-auto px-8"
-      >
-        <div
-          class="bg-[#21293C] h-56 relative p-8 rounded border-2 border-[#1B202C] shadow-lg sm:h-48 lg:h-60"
-        >
+      <section class="container mx-auto grid justify-items-center grid-cols-1 lg:grid-cols-3 justify-center gap-x-16 gap-y-24 mt-40 mb-4 px-8">
+        <div class="bg-[#21293C] relative p-8 rounded border-2 border-[#1B202C] shadow-lg">
           <picture>
             <img src="bg-quotes.png" class="absolute -top-8 -z-10" />
           </picture>
@@ -140,7 +132,7 @@
           </footer>
         </div>
         <div
-          class="bg-[#21293C] h-56 relative p-8 rounded border-2 border-[#1B202C] shadow-lg sm:h-48 lg:h-60"
+          class="bg-[#21293C] relative p-8 rounded border-2 border-[#1B202C] shadow-lg"
         >
           <p class="text-gray-300 text-left">
             Fylo has improved our team productivity by an order of magnitude.
@@ -157,9 +149,7 @@
             </div>
           </footer>
         </div>
-        <div
-          class="bg-[#21293C] h-56 relative p-8 rounded border-2 border-[#1B202C] shadow-lg sm:h-48 lg:h-60"
-        >
+        <div class="bg-[#21293C] relative p-8 rounded border-2 border-[#1B202C] shadow-lg">
           <p class="text-gray-300 text-left">
             Fylo has improved our team productivity by an order of magnitude.
             Since making the switch our team has become a well-oiled
@@ -177,9 +167,7 @@
         </div>
       </section>
       <section class="mb-10 translate-y-24">
-        <div
-          class="bg-[#1C2330] w-9/12 mx-auto rounded h-96 sm:h-72 text-center"
-        >
+        <div class="bg-[#1C2330] w-9/12 mx-auto rounded text-center">
           <br />
           <p class="text-white font-semibold text-xl sm:text-3xl">
             Get early access today
@@ -189,20 +177,14 @@
             extremely generous. if you have any question, our support team would
             be happy to help you.
           </p>
-          <div
-            class="grid grid-cols-1 justify-items-center place-content-center gap-x-3 gap-y-8 md:grid-cols-2 mt-4 sm:flex items-center mb-6"
-          >
-            <input type="text" class="rounded-full h-10 w-60 md:w-80 pl-8" />
-            <button class="rounded-full bg-[#8CDBE4] h-10 w-52 hover:text-white"
-              >Get Started For Free</button
-            >
+          <div class="grid grid-cols-1 justify-items-center place-content-center pb-6 gap-x-3 gap-y-8 md:grid-cols-2 mt-4 sm:flex items-center">
+            <input type="text" class="rounded-full h-10 px-4" />
+            <button class="rounded-full bg-[#8CDBE4] h-10 w-52 hover:text-white ">Get Started For Free</button>
           </div>
         </div>
       </section>
       <section class="bg-[#0C1524]">
-        <footer
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 text-left justify-items-left w-[90%] mx-auto py-28"
-        >
+        <footer class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 text-left justify-items-left w-[90%] mx-auto py-28">
           <div>
             <picture>
               <img src="logo.svg" alt="" />
